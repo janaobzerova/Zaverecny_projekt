@@ -1,0 +1,29 @@
+input {
+    width: 300px;
+    border: 1px solid #ededed;
+    outline: 0;
+    font-size: 15px;
+    line-height: 48px;
+    letter-spacing: .2em;
+    font-weight: 500;
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 10px;
+}
+
+button {
+    color: #fff;
+    background-color: #f0c2c2;
+    border: 1px solid transparent;
+    width: auto;
+    outline: 0;
+    font-size: 11px;
+    line-height: 2em;
+    letter-spacing: .2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 13px 53px;
+    cursor: pointer;
+}

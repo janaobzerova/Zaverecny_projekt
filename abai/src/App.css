@@ -1,38 +1,74 @@
-.App {
+.align-c {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mar-16--top {
+  margin-top: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mar-24--top {
+  margin-top: 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mar-40--top {
+  margin-top: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.mar-16--bottom {
+  margin-bottom: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mar-24--bottom {
+  margin-bottom: 24px;
+}
+
+.mar-40--bottom {
+  margin-bottom: 40px;
+}
+
+.pad-60--top {
+  padding-top: 60px;
+}
+
+.pad-60--bottom {
+  padding-bottom: 60px;
+}
+
+body {
+  font-family: Montserrat,sans-serif;
+  font-size: 14px;
+  line-height: 1.71em;
+  font-weight: 400;
+  color: #696969;
+  overflow-x: hidden!important;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Sorts Mill Goudy", serif;
+  letter-spacing: 0;
+  color: #3b3b3b;
+  font-weight: 400;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 81px;
+  line-height: 89px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 1.08em;
+}
+
+table {
+  border-spacing: 0;
+  border-width: 1px;
+  border-color: #ededed;
+}
+
+.dark-wrapper {
+  background-color: #3b3b3b;
 }

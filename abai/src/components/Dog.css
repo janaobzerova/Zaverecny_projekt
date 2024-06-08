@@ -1,0 +1,16 @@
+.dog {
+    img {
+        max-width: 100%;
+        display: block;
+        line-height: 0;
+    }
+
+    h2 {
+        margin: 8px 0 4px;
+    }
+
+    p {
+        margin: 0 0 4px;
+    }
+
+}
